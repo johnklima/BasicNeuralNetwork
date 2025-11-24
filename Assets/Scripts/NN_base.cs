@@ -11,14 +11,13 @@ public class NN_base : MonoBehaviour
 
    
     private NeuralNetwork nn;
-    private float[][] trainX;  //training set (what is our goal output)
-    private float[]   trainY;
+    public float[][] trainX;  //training set the inputs to arrive at an output
+    public float[]   trainY;
     
     public int curEpochs = 0;
     public int maxEpochs = 1000;   // how many training iterations
     public float lrnRate = 0.01f;  // how quickly  - if divide grads by batSize
     public int batSize = 10;       // batch size
-    
 
     
     //config for the NN
@@ -38,18 +37,17 @@ public class NN_base : MonoBehaviour
     public float answer;                     //what I should do next
     
     public string filename;
-    public string myParamName;
     
-
-    public float[] retrainWith = { 0.0f, 0.0f, 0.0f, 0.0f };
+    public float[] retrainWith = { 0.0f, 0.0f, 0.0f, };
     public int retrainFrom = 0;  // what portion to retrain/overwrite the existing weights
-    public int retrainTo = 64;
+    public int retrainTo = 70;
 
     // Start is called before the first frame update
     private void Start()
     {
-               
-
+        //filename to save       
+        filename = transform.name;
+        
         string trainFile = Application.dataPath + "/Data/flat_train.txt";
        
         trainX = Utils.MatLoad(trainFile,
@@ -77,7 +75,7 @@ public class NN_base : MonoBehaviour
    
     float timer = -1;
     
-    private void Update()
+    private void LateUpdate()
     {
                 
         if(!done && ( !weightsLoaded || !weightsBuilt ))
@@ -114,6 +112,7 @@ public class NN_base : MonoBehaviour
 
         if(retrain)
         {
+            /*
             for (int y = retrainFrom; y < retrainTo; y++)
             {
                 trainX[y][0] = retrainWith[0];
@@ -121,6 +120,8 @@ public class NN_base : MonoBehaviour
                 trainY[y] = retrainWith[2];
                 
             }
+            */
+            
             nn.TrainBatch(trainX, trainY, lrnRate,
              batSize, maxEpochs);
 
