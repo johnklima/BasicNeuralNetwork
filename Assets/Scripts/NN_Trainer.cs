@@ -12,19 +12,27 @@ public class NN_Trainer : MonoBehaviour
 
     public string paramName;
     
+    //put training start in a delay timer to be sure all else is built
+    private float timer = -1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        timer = Time.realtimeSinceStartup;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (timer > 0 && Time.realtimeSinceStartup - timer > 1.0f)
+        {
+            defaulttrain = true;
+            timer = -1;
+        }
         if (defaulttrain)
         {
             NN = transform.GetComponent<NN_base>();
             LUT = transform.parent.GetComponent<LUTTest>();
+            
             NPCs = transform.parent.parent.GetComponent<Transform>();    
         
             Debug.Log(LUT.typenames[LUT.whatAmI] + " has a trainer ");
@@ -39,10 +47,10 @@ public class NN_Trainer : MonoBehaviour
                 {
                     LUTTest npcLUT = npc.GetComponent<LUTTest>(); 
                     int encounter = LUT.resultTable[LUT.whatAmI, npcLUT.whatAmI];
-
+                    Debug.Log(transform.name + " has an NPC LUT " + npc.name);
                     //I am me, and this is the specific animation, so all
                     //that matters is that this entry is a zero, or a one
-
+                    Debug.Log(paramName + " compare result " + LUT.animParms[encounter]);
                     if (paramName == LUT.animParms[encounter])
                     {
                         value = 1.0f;
@@ -55,6 +63,7 @@ public class NN_Trainer : MonoBehaviour
                     
                     NN.trainX[y][0] = npcLUT.whatAmI;   //or what they are
                     NN.trainX[y][1] = npcLUT.myID;      //or who they are
+                   
                     NN.trainY[y] = value;                //the result
                 }
 

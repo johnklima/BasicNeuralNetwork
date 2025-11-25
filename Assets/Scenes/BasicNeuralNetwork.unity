@@ -2003,7 +2003,7 @@ MonoBehaviour:
   maxEpochs: 1000
   lrnRate: 0.01
   batSize: 10
-  numIn: 3
+  numIn: 2
   numHid: 8
   numOut: 1
   done: 0
@@ -2011,16 +2011,14 @@ MonoBehaviour:
   weightsBuilt: 0
   retrain: 0
   ask: 0
-  Xcols: 000000000100000002000000
-  Ycols: 03000000
+  Xcols: 0000000001000000
+  Ycols: 02000000
   question:
-  - 0
   - 0
   - 0
   answer: 0
   filename: 
   retrainWith:
-  - 0
   - 0
   - 0
   - 0
@@ -2057,6 +2055,7 @@ MonoBehaviour:
   LUT: {fileID: 0}
   NPCs: {fileID: 0}
   defaulttrain: 0
+  paramName: 
 --- !u!1001 &1786503401
 PrefabInstance:
   m_ObjectHideFlags: 0

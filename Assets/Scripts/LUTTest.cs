@@ -196,6 +196,7 @@ public class LUTTest : MonoBehaviour
             nnobj.transform.GetComponent<AnimParamDriver>().animTree = AnimTree;
             nnobj.transform.GetComponent<NN_base>().filename = nnobj.name;
             nnobj.transform.GetComponent<NN_Trainer>().paramName = animParms[nn];
+            nnobj.SetActive(true);
             
         }
     }
