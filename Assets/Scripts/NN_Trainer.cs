@@ -61,8 +61,8 @@ public class NN_Trainer : MonoBehaviour
                         value = 0.0f;
                     }
                     
-                    NN.trainX[y][0] = npcLUT.whatAmI;   //or what they are
-                    NN.trainX[y][1] = npcLUT.myID;      //or who they are
+                    NN.trainX[y][0] = npcLUT.whatAmI;   //what they are
+                    NN.trainX[y][1] = npcLUT.myID;      //who they are
                    
                     NN.trainY[y] = value;                //the result
                 }

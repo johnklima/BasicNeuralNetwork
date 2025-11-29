@@ -68,7 +68,7 @@ public class LUTTest : MonoBehaviour
     public int[,] resultTable;     //where we stick the animation numbers (names of parms by index)
     public string[] animParms;     //names of the animation parms
     private Animator AnimTree;     //the tree that cares about the anim parms
-    
+    public NN_base[] network;       //the base networks which will answer questions for all animations    
     /// <summary>
     /// If nobody knows anybody, the default knee jerk reaction to the character type applies
     /// So what we actually do here, is retrain an individual when encountering another individual
@@ -106,6 +106,8 @@ public class LUTTest : MonoBehaviour
         {
             animParms[i] = AnimTree.parameters[i].name;
         }
+
+        network = new NN_base[AnimTree.parameterCount];
         
         resultTable = new int[rows, cols];
 
@@ -194,7 +196,8 @@ public class LUTTest : MonoBehaviour
             nnobj.name = whoAmI + animParms[nn];
             nnobj.transform.GetComponent<AnimParamDriver>().parmName = animParms[nn];
             nnobj.transform.GetComponent<AnimParamDriver>().animTree = AnimTree;
-            nnobj.transform.GetComponent<NN_base>().filename = nnobj.name;
+            network[nn] = nnobj.transform.GetComponent<NN_base>();
+            network[nn].filename = nnobj.name;
             nnobj.transform.GetComponent<NN_Trainer>().paramName = animParms[nn];
             nnobj.SetActive(true);
             

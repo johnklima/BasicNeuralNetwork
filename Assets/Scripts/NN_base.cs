@@ -145,7 +145,7 @@ public class NN_base : MonoBehaviour
         
         float y = nn.ComputeOutput(question);
 
-        Debug.Log("first out = " + y);
+        Debug.Log(this.transform.name + " first out = " + y);
 
 
         answer = y;

@@ -6,7 +6,7 @@ public class CharacterInteract : MonoBehaviour
     public Dropdown whoAmI;
     public Dropdown whoAreThey;
     public Transform NPCS;    
-
+    
 
     public void Interact()
     {
@@ -24,7 +24,20 @@ public class CharacterInteract : MonoBehaviour
         //make sure I have my pointers correct
         Debug.Log(whoAmI + " my hash " + MyHash  + " interacts with " + whoAreThey + " their hash" + TheirHash);
 
+        for (int nn = 0; nn < myLUT.network.Length; nn++)
+        {
+            
+            //get my reaction to them
+            myLUT.network[nn].question[0] = theirLUT.whatAmI;   //type
+            myLUT.network[nn].question[1] = theirLUT.myID;      //who
+            myLUT.network[nn].ask = true; 
+    
+            
+        }
+            
         
+        
+        //get their reaction to me
 
     }
 }

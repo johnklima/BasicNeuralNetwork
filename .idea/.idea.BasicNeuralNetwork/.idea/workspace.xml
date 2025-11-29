@@ -78,8 +78,10 @@
       <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharinsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharinsult_wts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharsnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharsnob_wts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharwhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharwhisper_wts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BasicNeuralNetwork.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BasicNeuralNetwork.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterInteract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LUTTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LUTTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NN_Trainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NN_Trainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NN_base.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NN_base.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +168,7 @@
       <workItem from="1763644869241" duration="4734000" />
       <workItem from="1763725093822" duration="682000" />
       <workItem from="1763726259741" duration="55679000" />
-      <workItem from="1764416742009" duration="1506000" />
+      <workItem from="1764416742009" duration="3199000" />
     </task>
     <servers />
   </component>
