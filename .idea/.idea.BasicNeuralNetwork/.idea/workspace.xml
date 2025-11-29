@@ -6,9 +6,79 @@
   <component name="ChangeListManager">
     <list default="true" id="3945c357-3875-4c60-853c-3d5b9debad3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicNeuralNetwork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicNeuralNetwork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/flat_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/flat_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankbless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankbless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankbow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankbow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankchat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankchat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankinsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankinsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Franksnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Franksnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Frankwhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Frankwhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janeagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janeagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janebless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janebless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janebow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janebow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janechat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janechat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janeflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janeflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janeignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janeignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janeinsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janeinsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janesnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janesnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Janewhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Janewhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnbless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnbless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnbow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnbow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnchat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnchat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johninsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johninsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnsnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnsnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Johnwhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Johnwhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiaagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiaagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiabless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiabless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiabow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiabow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiachat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiachat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiaflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiaflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiaignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiaignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiainsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiainsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiasnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiasnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Lythiawhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Lythiawhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertbless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertbless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertbow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertbow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertchat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertchat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertinsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertinsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertsnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertsnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Norbertwhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Norbertwhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Sambless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Sambless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Sambow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Sambow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samchat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samchat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Saminsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Saminsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samsnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samsnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samueloagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samueloagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samuelobless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samuelobless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samuelobow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samuelobow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samuelochat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samuelochat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samueloflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samueloflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samueloignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samueloignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samueloinsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samueloinsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samuelosnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samuelosnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samuelowhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samuelowhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Samwhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Samwhisper_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharagro_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharagro_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharbless_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharbless_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharbow_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharbow_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharchat_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharchat_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharflirt_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharflirt_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharignore_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharignore_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharinsult_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharinsult_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharsnob_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharsnob_wts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Shankharwhisper_wts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Shankharwhisper_wts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BasicNeuralNetwork.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BasicNeuralNetwork.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LUTTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LUTTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NN_Trainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NN_Trainer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +88,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -92,7 +165,8 @@
       <workItem from="1763634343956" duration="860000" />
       <workItem from="1763644869241" duration="4734000" />
       <workItem from="1763725093822" duration="682000" />
-      <workItem from="1763726259741" duration="55281000" />
+      <workItem from="1763726259741" duration="55679000" />
+      <workItem from="1764416742009" duration="1506000" />
     </task>
     <servers />
   </component>

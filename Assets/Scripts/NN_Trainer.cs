@@ -54,7 +54,7 @@ public class NN_Trainer : MonoBehaviour
                     if (paramName == LUT.animParms[encounter])
                     {
                         value = 1.0f;
-                        Debug.Log(npc.name + " the other " +  paramName + " " + transform.name + " is the default" );
+                        Debug.Log(" the other is" + npc.name + " anim " + paramName + " " + transform.name + " is the default" );
                     }
                     else
                     {
