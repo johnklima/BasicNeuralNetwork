@@ -53,16 +53,18 @@ public class NN_Trainer : MonoBehaviour
                     Debug.Log(paramName + " compare result " + LUT.animParms[encounter]);
                     if (paramName == LUT.animParms[encounter])
                     {
-                        value = 1.0f;
-                        Debug.Log(" the other is" + npc.name + " anim " + paramName + " " + transform.name + " is the default" );
+                        value = 1.0f; 
                     }
                     else
                     {
                         value = 0.0f;
+                        
                     }
                     
-                    NN.trainX[y][0] = npcLUT.whatAmI;   //what they are
-                    NN.trainX[y][1] = npcLUT.myID;      //who they are
+                    Debug.Log(" the other is" + npc.name + " anim " + paramName + " " + transform.name + " is " + value);
+
+                    //NN.trainX[y][0] = npcLUT.whatAmI;   //what they are
+                    NN.trainX[y][0] = npcLUT.myID;      //who they are
                    
                     NN.trainY[y] = value;                //the result
                 }

@@ -98,7 +98,7 @@ public class LUTTest : MonoBehaviour
         //scope this, maybe read a file rather
         
         //hmmmmmm
-        myID = whoAmI.GetHashCode();
+        //myID = whoAmI.GetHashCode();
         
         //get all the names of the parms
         animParms = new string[AnimTree.parameterCount];

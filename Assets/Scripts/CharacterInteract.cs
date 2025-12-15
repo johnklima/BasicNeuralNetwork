@@ -22,7 +22,7 @@ public class CharacterInteract : MonoBehaviour
         int TheirHash = theirLUT.myID;
         
         //make sure I have my pointers correct
-        Debug.Log(whoAmI + " my hash " + MyHash  + " interacts with " + whoAreThey + " their hash" + TheirHash);
+        Debug.Log(whoAmI + " my hash " + MyHash  + " interacts with " + whoAreThey + " their hash " + TheirHash);
 
         for (int nn = 0; nn < myLUT.network.Length; nn++)
         {

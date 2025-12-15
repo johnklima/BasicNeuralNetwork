@@ -577,12 +577,61 @@ MonoBehaviour:
   - MAN
   - WOMAN
   whatAmI: 0
-  whoAmI: 0
-  myID: 0
+  whoAmI: 
+  myID: 3
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
+--- !u!1 &259471913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 259471915}
+  - component: {fileID: 259471914}
+  m_Layer: 0
+  m_Name: PIMonteCarlo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &259471914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259471913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda3c5e4d4a09d0449d441495842672d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  NumberOfCirclePoints: 0
+  radius: 1
+  numberOfPoints: 16
+  doIt: 0
+--- !u!4 &259471915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259471913}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &282050789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1280,10 +1329,11 @@ MonoBehaviour:
   - WOMAN
   whatAmI: 0
   whoAmI: 0
-  myID: 0
+  myID: 5
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!1 &832575517
 GameObject:
@@ -1383,10 +1433,11 @@ MonoBehaviour:
   - WOMAN
   whatAmI: 0
   whoAmI: 0
-  myID: 0
+  myID: 4
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!1001 &981590207
 PrefabInstance:
@@ -1636,10 +1687,11 @@ MonoBehaviour:
   - WOMAN
   whatAmI: 0
   whoAmI: 0
-  myID: 0
+  myID: 6
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!1001 &1074432358
 PrefabInstance:
@@ -1809,11 +1861,12 @@ MonoBehaviour:
   - MAN
   - WOMAN
   whatAmI: 0
-  whoAmI: 0
-  myID: 0
+  whoAmI: 
+  myID: 2
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!1 &1086473066 stripped
 GameObject:
@@ -1863,11 +1916,12 @@ MonoBehaviour:
   - MAN
   - WOMAN
   whatAmI: 0
-  whoAmI: 0
-  myID: 0
+  whoAmI: 
+  myID: 1
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!114 &1088247816 stripped
 MonoBehaviour:
@@ -2858,10 +2912,11 @@ MonoBehaviour:
   - WOMAN
   whatAmI: 0
   whoAmI: 
-  myID: 0
+  myID: 7
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!4 &1714908529 stripped
 Transform:
@@ -2922,7 +2977,7 @@ MonoBehaviour:
   maxEpochs: 1000
   lrnRate: 0.01
   batSize: 10
-  numIn: 2
+  numIn: 1
   numHid: 8
   numOut: 1
   done: 0
@@ -2930,15 +2985,13 @@ MonoBehaviour:
   weightsBuilt: 0
   retrain: 0
   ask: 0
-  Xcols: 0000000001000000
-  Ycols: 02000000
+  Xcols: 00000000
+  Ycols: 01000000
   question:
-  - 0
   - 0
   answer: 0
   filename: 
   retrainWith:
-  - 0
   - 0
   - 0
   retrainFrom: 0
@@ -3499,10 +3552,11 @@ MonoBehaviour:
   - WOMAN
   whatAmI: 0
   whoAmI: 
-  myID: 0
+  myID: 8
   cols: 0
   rows: 0
   animParms: []
+  network: []
   them: 0
 --- !u!1 &2121444845
 GameObject:
@@ -3641,3 +3695,4 @@ SceneRoots:
   - {fileID: 656823457}
   - {fileID: 1715859585}
   - {fileID: 1556576769}
+  - {fileID: 259471915}
