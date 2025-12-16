@@ -392,7 +392,19 @@ MonoBehaviour:
   d10s: 0
   d20s: 0
   maxRoll: 0
+  numRolls: 0
   runit: 0
+  add: 0
+  onesAndTens: 0
+  multiple: 0
+  doJosh: 0
+  doJosh2: 1
+  mats:
+  - {fileID: 2100000, guid: 25d07053c9b937a49921267a620523c5, type: 2}
+  - {fileID: 2100000, guid: 05194c29fa7513c4abeb3bf2d1fac7f7, type: 2}
+  - {fileID: 2100000, guid: 3e6aeabd763d87346b2f5cb07b4ace1a, type: 2}
+  - {fileID: 2100000, guid: 67a031e7471761d4eb11225eac4182a4, type: 2}
+  - {fileID: 2100000, guid: 311012cd7e1cde74ea3fc871b17e0542, type: 2}
 --- !u!4 &1962596339
 Transform:
   m_ObjectHideFlags: 0
@@ -496,7 +508,7 @@ Transform:
   m_GameObject: {fileID: 2128011704}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: 20, z: -40}
+  m_LocalPosition: {x: 40, y: 20, z: -80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
