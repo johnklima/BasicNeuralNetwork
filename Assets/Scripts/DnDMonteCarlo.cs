@@ -20,6 +20,7 @@ public class DnDMonteCarlo : MonoBehaviour
     public bool doJosh2 = false;
 
     public Material[] mats = new Material [6];
+    public int[] tiers = new int[6];
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,32 +37,35 @@ public class DnDMonteCarlo : MonoBehaviour
         
         Transform template = transform.GetChild(0);
         
-        for(int i = 1; i < 100; i++)
+        for(int i = 0; i < 100; i++)
         {
-            GameObject obj = Instantiate(template.gameObject, template.position+Vector3.right * i, 
+
+            GameObject obj = template.gameObject;
+
+            if (i > 0)
+            {
+                obj = Instantiate(template.gameObject, template.position + Vector3.right * i,
                                          template.rotation, template.parent);
-            
+            }
+
             obj.name = "Bucket (" + i + ")";
 
-            float cf = (float)i / 100.0f ;
+            int c = 0;
 
-            cf = 20.0f * cf;
+            if (i > tiers[4])
+                c = 4;
+            else if (i > tiers[3])
+                c = 3;
+            else if (i > tiers[2])
+                c = 2;
+            else if (i > tiers[1])
+                c = 1;
+            else
+                c = 0;
+                
 
-            Debug.Log(cf + 1);
-           
+            obj.GetComponent<Renderer>().material = mats[c];
             
-            int c = (int) (cf + 1);
-            if (c > 18)
-                obj.GetComponent<Renderer>().material = mats[3];
-            else if ( c > 17 )
-                obj.GetComponent<Renderer>().material = mats[3];
-            else if ( c > 12)
-                obj.GetComponent<Renderer>().material = mats[2];
-            else if ( c > 2)
-                obj.GetComponent<Renderer>().material = mats[1];
-            else if ( c > 0)
-                obj.GetComponent<Renderer>().material = mats[0];
-
         }
     }
 
@@ -75,7 +79,12 @@ public class DnDMonteCarlo : MonoBehaviour
 
             numRolls++;
 
+            if(multiple)
+            {
+                doMultiplication();
+                return;
 
+            }
             if (doJosh)
             {
                 DoJosh();
@@ -162,10 +171,7 @@ public class DnDMonteCarlo : MonoBehaviour
                                                + Vector3.up * (transform.GetChild(total-1).localScale.y / 2);
 
     }
-    void doMultiple()
-    {
-        
-    }
+  
     void doAddition(int[] _rolls6)
     {
         float total = ((_rolls6[0] + _rolls6[1] ) / 12.0f ) * 100.0f ;
@@ -175,7 +181,34 @@ public class DnDMonteCarlo : MonoBehaviour
     }
     void doMultiplication()
     {
-        
+        //this is hard coded for a 1d10 multiplied by a 1d10 to achieve percentile 100
+        int D10one = Random.Range(1, 11);
+        int D10two = Random.Range(1, 11);
+
+
+        int m;
+        int i;
+
+        if (D10one > D10two)
+        {
+            m = D10one;
+            i = D10two;
+        }            
+        else if ( D10two > D10one)
+        {
+            m = D10two;
+            i = D10one;
+        }
+        else
+        {
+            m = 10;
+            i = 10;
+        }
+
+
+        int total = i * m;
+
+        GraphMe(total);
     }
     void DoJosh()
     {

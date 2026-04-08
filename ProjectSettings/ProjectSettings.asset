@@ -823,7 +823,8 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: ALTERUNA;ALTERUNA_V_1_X_X_X;ALTERUNA_V_1_3_X_X;ALTERUNA_V_1_3_4_X;ALTERUNA_V_1_3_4_11
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -920,7 +921,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 907dd6d2-3e56-4be0-bb51-4d8436ba2f47
   framebufferDepthMemorylessMode: 0
